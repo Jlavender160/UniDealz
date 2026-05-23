@@ -1,0 +1,32 @@
+# Firebase credentials — DO NOT COMMIT
+GoogleService-Info.plist
+GoogleService-Info-*.plist
+
+# Xcode user data
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+
+# Build output
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# macOS
+.DS_Store
+
+# Environment / secrets
+*.env
+Secrets.swift
+APIKeys.swift

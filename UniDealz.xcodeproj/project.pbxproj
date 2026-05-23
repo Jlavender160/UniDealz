@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AFC93C22F65D3B700FB795F /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFC93C12F65D3B700FB795F /* FirebaseAuth */; };
+		1AFC93C42F65D3B700FB795F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFC93C32F65D3B700FB795F /* FirebaseFirestore */; };
+		1AFC93C62F65D3B700FB795F /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFC93C52F65D3B700FB795F /* FirebaseMessaging */; };
+		1AFC93C92F65D3F000FB795F /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 1AFC93C82F65D3F000FB795F /* GoogleMaps */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AB5E2312F64BA5F00F34FF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB5E21B2F64BA5900F34FF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB5E2222F64BA5A00F34FF1;
+			remoteInfo = UniDealz;
+		};
+		1AB5E23B2F64BA5F00F34FF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AB5E21B2F64BA5900F34FF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB5E2222F64BA5A00F34FF1;
+			remoteInfo = UniDealz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB5E2232F64BA5A00F34FF1 /* UniDealz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniDealz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB5E2302F64BA5F00F34FF1 /* UniDealzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniDealzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB5E23A2F64BA5F00F34FF1 /* UniDealzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniDealzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1A5ADEFB2F65E79D008BCCD2 /* Exceptions for "UniDealz" folder in "UniDealz" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 1AB5E2222F64BA5A00F34FF1 /* UniDealz */;
+		};
+		1AFC93BE2F65D2C100FB795F /* Exceptions for "UniDealz" folder in "UniDealzTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info-3.plist",
+			);
+			target = 1AB5E22F2F64BA5F00F34FF1 /* UniDealzTests */;
+		};
+		1AFC93BF2F65D2C100FB795F /* Exceptions for "UniDealz" folder in "UniDealzUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info-3.plist",
+			);
+			target = 1AB5E2392F64BA5F00F34FF1 /* UniDealzUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1AB5E2252F64BA5A00F34FF1 /* UniDealz */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1A5ADEFB2F65E79D008BCCD2 /* Exceptions for "UniDealz" folder in "UniDealz" target */,
+				1AFC93BE2F65D2C100FB795F /* Exceptions for "UniDealz" folder in "UniDealzTests" target */,
+				1AFC93BF2F65D2C100FB795F /* Exceptions for "UniDealz" folder in "UniDealzUITests" target */,
+			);
+			path = UniDealz;
+			sourceTree = "<group>";
+		};
+		1AB5E2332F64BA5F00F34FF1 /* UniDealzTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UniDealzTests;
+			sourceTree = "<group>";
+		};
+		1AB5E23D2F64BA5F00F34FF1 /* UniDealzUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UniDealzUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AB5E2202F64BA5A00F34FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFC93C92F65D3F000FB795F /* GoogleMaps in Frameworks */,
+				1AFC93C62F65D3B700FB795F /* FirebaseMessaging in Frameworks */,
+				1AFC93C22F65D3B700FB795F /* FirebaseAuth in Frameworks */,
+				1AFC93C42F65D3B700FB795F /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB5E22D2F64BA5F00F34FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB5E2372F64BA5F00F34FF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB5E21A2F64BA5900F34FF1 = {
+			isa = PBXGroup;
+			children = (
+				1AB5E2252F64BA5A00F34FF1 /* UniDealz */,
+				1AB5E2332F64BA5F00F34FF1 /* UniDealzTests */,
+				1AB5E23D2F64BA5F00F34FF1 /* UniDealzUITests */,
+				1AB5E2242F64BA5A00F34FF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AB5E2242F64BA5A00F34FF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AB5E2232F64BA5A00F34FF1 /* UniDealz.app */,
+				1AB5E2302F64BA5F00F34FF1 /* UniDealzTests.xctest */,
+				1AB5E23A2F64BA5F00F34FF1 /* UniDealzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AB5E2222F64BA5A00F34FF1 /* UniDealz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB5E2442F64BA5F00F34FF1 /* Build configuration list for PBXNativeTarget "UniDealz" */;
+			buildPhases = (
+				1AB5E21F2F64BA5A00F34FF1 /* Sources */,
+				1AB5E2202F64BA5A00F34FF1 /* Frameworks */,
+				1AB5E2212F64BA5A00F34FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1AB5E2252F64BA5A00F34FF1 /* UniDealz */,
+			);
+			name = UniDealz;
+			packageProductDependencies = (
+				1AFC93C12F65D3B700FB795F /* FirebaseAuth */,
+				1AFC93C32F65D3B700FB795F /* FirebaseFirestore */,
+				1AFC93C52F65D3B700FB795F /* FirebaseMessaging */,
+				1AFC93C82F65D3F000FB795F /* GoogleMaps */,
+			);
+			productName = UniDealz;
+			productReference = 1AB5E2232F64BA5A00F34FF1 /* UniDealz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AB5E22F2F64BA5F00F34FF1 /* UniDealzTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB5E2472F64BA5F00F34FF1 /* Build configuration list for PBXNativeTarget "UniDealzTests" */;
+			buildPhases = (
+				1AB5E22C2F64BA5F00F34FF1 /* Sources */,
+				1AB5E22D2F64BA5F00F34FF1 /* Frameworks */,
+				1AB5E22E2F64BA5F00F34FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB5E2322F64BA5F00F34FF1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1AB5E2332F64BA5F00F34FF1 /* UniDealzTests */,
+			);
+			name = UniDealzTests;
+			packageProductDependencies = (
+			);
+			productName = UniDealzTests;
+			productReference = 1AB5E2302F64BA5F00F34FF1 /* UniDealzTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AB5E2392F64BA5F00F34FF1 /* UniDealzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB5E24A2F64BA5F00F34FF1 /* Build configuration list for PBXNativeTarget "UniDealzUITests" */;
+			buildPhases = (
+				1AB5E2362F64BA5F00F34FF1 /* Sources */,
+				1AB5E2372F64BA5F00F34FF1 /* Frameworks */,
+				1AB5E2382F64BA5F00F34FF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB5E23C2F64BA5F00F34FF1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1AB5E23D2F64BA5F00F34FF1 /* UniDealzUITests */,
+			);
+			name = UniDealzUITests;
+			packageProductDependencies = (
+			);
+			productName = UniDealzUITests;
+			productReference = 1AB5E23A2F64BA5F00F34FF1 /* UniDealzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AB5E21B2F64BA5900F34FF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					1AB5E2222F64BA5A00F34FF1 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					1AB5E22F2F64BA5F00F34FF1 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 1AB5E2222F64BA5A00F34FF1;
+					};
+					1AB5E2392F64BA5F00F34FF1 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 1AB5E2222F64BA5A00F34FF1;
+					};
+				};
+			};
+			buildConfigurationList = 1AB5E21E2F64BA5900F34FF1 /* Build configuration list for PBXProject "UniDealz" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AB5E21A2F64BA5900F34FF1;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1AFC93C02F65D3B700FB795F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				1AFC93C72F65D3F000FB795F /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1AB5E2242F64BA5A00F34FF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AB5E2222F64BA5A00F34FF1 /* UniDealz */,
+				1AB5E22F2F64BA5F00F34FF1 /* UniDealzTests */,
+				1AB5E2392F64BA5F00F34FF1 /* UniDealzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AB5E2212F64BA5A00F34FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB5E22E2F64BA5F00F34FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB5E2382F64BA5F00F34FF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AB5E21F2F64BA5A00F34FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB5E22C2F64BA5F00F34FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AB5E2362F64BA5F00F34FF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB5E2322F64BA5F00F34FF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB5E2222F64BA5A00F34FF1 /* UniDealz */;
+			targetProxy = 1AB5E2312F64BA5F00F34FF1 /* PBXContainerItemProxy */;
+		};
+		1AB5E23C2F64BA5F00F34FF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB5E2222F64BA5A00F34FF1 /* UniDealz */;
+			targetProxy = 1AB5E23B2F64BA5F00F34FF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AB5E2422F64BA5F00F34FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W9GHU8Z389;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AB5E2432F64BA5F00F34FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W9GHU8Z389;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AB5E2452F64BA5F00F34FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RD688AUBRG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniDealz/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "UniDealz needs your location to show deals near you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "James-lavender.UniDealz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AB5E2462F64BA5F00F34FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RD688AUBRG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniDealz/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "UniDealz needs your location to show deals near you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "James-lavender.UniDealz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AB5E2482F64BA5F00F34FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9GHU8Z389;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "James-lavender.UniDealzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniDealz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UniDealz";
+			};
+			name = Debug;
+		};
+		1AB5E2492F64BA5F00F34FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9GHU8Z389;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "James-lavender.UniDealzTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniDealz.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UniDealz";
+			};
+			name = Release;
+		};
+		1AB5E24B2F64BA5F00F34FF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9GHU8Z389;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "James-lavender.UniDealzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UniDealz;
+			};
+			name = Debug;
+		};
+		1AB5E24C2F64BA5F00F34FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9GHU8Z389;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "James-lavender.UniDealzUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UniDealz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AB5E21E2F64BA5900F34FF1 /* Build configuration list for PBXProject "UniDealz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB5E2422F64BA5F00F34FF1 /* Debug */,
+				1AB5E2432F64BA5F00F34FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB5E2442F64BA5F00F34FF1 /* Build configuration list for PBXNativeTarget "UniDealz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB5E2452F64BA5F00F34FF1 /* Debug */,
+				1AB5E2462F64BA5F00F34FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB5E2472F64BA5F00F34FF1 /* Build configuration list for PBXNativeTarget "UniDealzTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB5E2482F64BA5F00F34FF1 /* Debug */,
+				1AB5E2492F64BA5F00F34FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AB5E24A2F64BA5F00F34FF1 /* Build configuration list for PBXNativeTarget "UniDealzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB5E24B2F64BA5F00F34FF1 /* Debug */,
+				1AB5E24C2F64BA5F00F34FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1AFC93C02F65D3B700FB795F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.10.0;
+			};
+		};
+		1AFC93C72F65D3F000FB795F /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1AFC93C12F65D3B700FB795F /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AFC93C02F65D3B700FB795F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1AFC93C32F65D3B700FB795F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AFC93C02F65D3B700FB795F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		1AFC93C52F65D3B700FB795F /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AFC93C02F65D3B700FB795F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		1AFC93C82F65D3F000FB795F /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1AFC93C72F65D3F000FB795F /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1AB5E21B2F64BA5900F34FF1 /* Project object */;
+}
